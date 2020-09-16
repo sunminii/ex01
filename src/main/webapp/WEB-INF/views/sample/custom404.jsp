@@ -17,13 +17,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
-<h4><c:out value="${exception.message}"></c:out></h4>
-<ul>
-	<c:forEach items="${exception.stackTrace}" var="stack">
-		<li>${stack }</li>
-	</c:forEach>
-</ul>
-
+<h1>해당 url은 존재하지 않습니다</h1>
 </body>
 </html>
